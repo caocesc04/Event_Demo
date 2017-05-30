@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <RelativeLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/project1">
+        <TextView
+            android:id="@+id/txtvEx060"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Chương trình xem số ngày trong tháng, năm"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtvEx061"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Vui lòng nhập đầy đủ thông tin"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtvThangNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:text="Tháng Năm:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtvSoNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Số Ngày:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtThangNam"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:inputType="datetime"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtvThangNam"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edtSoNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:ems="10"
+            android:layout_alignBottom="@id/txtvSoNgay"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnXemSoNgay"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="150dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Xem Số Ngày" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Thoát" />
+    </RelativeLayout>
+</LinearLayout>

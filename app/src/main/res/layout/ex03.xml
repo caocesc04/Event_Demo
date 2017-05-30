@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="100dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginBottom="100dp"
+    android:layout_marginStart="50dp"
+    android:background="@color/colorBg">
+    <TextView
+        android:id="@+id/txtv031"
+        android:text="Chương trình đăng kí tham gia kết bạn"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light" />
+    <TextView
+        android:id="@+id/txtv032"
+        android:text="Vui lòng nhập đầy đủ thông tin"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvNhapTen"
+        android:text="Nhập Tên"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvNhapTuoi"
+        android:text="Nhập Tuổi"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvTinhTrang"
+        android:text="Chọn Tình Trạng"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvGioiTinh"
+        android:text="Chọn Giới Tính"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtNhapTen"
+        android:layout_alignBaseline="@id/txtvNhapTen"
+        android:layout_alignBottom="@id/txtvNhapTen"
+        android:ems="10"
+        android:textSize="20dp"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:layout_marginStart="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtNhapTuoi"
+        android:layout_alignBaseline="@id/txtvNhapTuoi"
+        android:layout_alignBottom="@id/txtvNhapTuoi"
+        android:ems="10"
+        android:textSize="20dp"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:layout_marginStart="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtTinhTrang"
+        android:layout_alignBaseline="@id/txtvTinhTrang"
+        android:layout_alignBottom="@id/txtvTinhTrang"
+        android:ems="10"
+        android:textSize="20dp"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:layout_marginStart="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtGioiTinh"
+        android:layout_alignBaseline="@id/txtvGioiTinh"
+        android:layout_alignBottom="@id/txtvGioiTinh"
+        android:ems="10"
+        android:textSize="20dp"
+        android:background="@android:color/white"
+        android:inputType="textPersonName"
+        android:layout_marginStart="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDangKiThamGia"
+        android:text="Đăng Kí Tham Gia"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnThoat"
+        android:text="Thoát"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/project1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:id="@+id/txtvEx20"
+        android:text="Chương Trình Tính Toán"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvEx2"
+        android:text="Vui lòng nhập đầy đủ thông tin"
+        android:layout_below="@+id/txtvEx20"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtvNhapSoa"
+        android:text="Nhập số a:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtvEx2"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txtvNhapSob"
+        android:text="Nhập số b:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtSob"
+        android:layout_below="@+id/txtvNhapSoa"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtvChonPhepTinh"
+        android:text="Chọn Phép Tính"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtvNhapSob"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtSoa"
+        android:layout_width="200dp"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtvNhapSoa"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:id="@+id/edtSob"
+        android:layout_width="200dp"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtSoa"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/edtChonPhepTinh"
+        android:background="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtvChonPhepTinh"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btnTinhToan"
+        android:text="Tính Toán"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnThoat"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btnThoat"
+        android:text="Thoát"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/edtSob"
+        android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

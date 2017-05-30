@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="center_vertical">
+        <RelativeLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/project1">
+            <TextView
+                android:id="@+id/txtvEx10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Đăng Nhập Chương Trình"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtvEx11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvEx10"
+                android:text="Vui lòng nhập đầy đủ thông tin"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtvTenDangNhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtvEx11"
+                android:layout_marginTop="16dp"
+                android:text="Tên Đăng Nhập:"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtvMatKhau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/edtMatKhau"
+                android:layout_alignBottom="@+id/edtMatKhau"
+                android:layout_alignParentStart="true"
+                android:text="Mật Khẩu:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtTenDangNhap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtvTenDangNhap"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edtMatKhau"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtvTenDangNhap"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtMatKhau"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Đăng Nhập" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/edtMatKhau"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Thoát" />
+    </RelativeLayout>
+</LinearLayout>
